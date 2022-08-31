@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <!-- action es a donde enviará los datos al pulsar el botón
+        el método get envía los datos y se ven en la url
+        también fue necesario colocarle name a los input-->
+        <form action="resultados.html" method="get">
+            <div>
+                <!--el for del label debe coincidir con el id del input-->
+                <label for="nombreusuario">Nombre de usuario:</label>
+                <input type="text" name="nombreusuario" id="nombreusuario" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Contraseña:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email"><!--Valida la @-->
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" min="0" max="100" step="5">
+            </div>
+            <br>
+            <div>
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" id="nacimiento" required>
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
