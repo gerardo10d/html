@@ -1,0 +1,20 @@
+/*Estilos para colores*/
+
+/*página coolors.com para ver paletas de colores*/
+
+.colores {
+    color: orangered;
+}
+
+.color-hexadecimal {
+    color: #bce784;
+}
+
+.color-rgb {
+    color: rgb(53, 71, 226);
+}
+
+/* Agrega transparencia */
+.color-rgba {
+    color: rgba(38, 255, 0, 0.777);
+}

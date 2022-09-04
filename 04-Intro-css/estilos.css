@@ -1,0 +1,38 @@
+h1 {
+    color:orangered;
+}
+
+/*Estoy probando colores y fuentes*/
+
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/* selectores id*/
+#primera-noticia{
+    color: green; 
+    font-size: 12pt;
+}
+
+#segunda-noticia{
+    color: darkmagenta;
+}
+
+/* selector class*/
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/*aplica estilo a varios selectores*/
+.autor, .obra, h1{
+    text-decoration: underline;
+}
+
+/*selector universal*/
+/*
+* {
+    color: yellow;
+}
+*/
