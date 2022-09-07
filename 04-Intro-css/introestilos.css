@@ -18,3 +18,42 @@
 .color-rgba {
     color: rgba(38, 255, 0, 0.777);
 }
+
+/* Fondos */
+
+.fondo{
+    /* background-color: cyan; */
+    background-image: url("https://png.pngtree.com/background/20210712/original/pngtree-blueprint-digital-paper-background-design-super-high-resolution-picture-image_1178711.jpg");
+    background-position: right top;
+
+}
+
+.fondo-interno{
+    /* background-color: cyan; */
+    background-image: url("imagenes/fondo1.jpg");
+    background-position: right top;
+
+}
+
+/* Ancho y alto */
+
+.ancho {
+    background-color: burlywood;
+    width: 200px;
+}
+
+.alto {
+    background-color: deepskyblue;
+    width: 400px;
+    height: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    /* border-top: none; */ /* Para quitar el borde superior */
+    padding: 20px 20px; /* Para colocar el espacio interno de 10 en los verticales y 20 en los horizontales */
+    /*padding: 10px 20px 30px 40px;*/ /* arriba derecha abajo izquierda */
+    margin: 10px 20px; /* es el espacio del contenedor hacia afuera */
+}
